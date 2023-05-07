@@ -1,0 +1,94 @@
+/***************************************
+	공통 사항
+***************************************/
+* {
+	padding: 0px;
+	margin: 0px;
+	color:#3d3d3d;
+}
+
+iframe {
+	border: 1px solid pink;
+}
+
+div.smain {
+	border: 1px solid blue;
+	width: 1000px;
+	margin: auto;
+}
+
+.smain h1.hlist {
+	/* border: 1px solid red; */
+	text-align:center;
+	font-size:24px;
+	font-weight:bold;
+	padding:20px 0px;
+	border-bottom:3px solid #3d3d3d;
+	pargin-bottom:15px;
+}
+
+
+/***************************************
+	section1
+***************************************/
+.section1 {
+	border: 2px solid #00ffff;
+}
+
+div.area {
+	border: 5px solid red;
+}
+
+div.area .aname{
+	/* border: 5px solid blue; */
+	width: 155px;
+	height: 95px;
+	background: #98DFFF;
+  	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+div.area .aname > span {
+	border: 5px solid blue;
+	color: white;
+	font-xize: 14px;
+	font-weight:bold;
+	
+}
+
+form[name="areaForm"] {
+	border:1px solid green;
+	width: 845px;
+	height:95px;
+	background: #F5F5F5;
+	list-style-type: none;
+	
+}
+
+form[name="areaForm"] .l1 span {
+	border:1px solid green;
+	display: inline-block;
+	
+}
+
+
+
+
+
+
+
+section2 {
+	border: 5px solid green;
+	height:2000px;
+}
+
+
+section3.map {
+	border: 5px solid green;
+	height:2000px;
+}
+
+
+
+

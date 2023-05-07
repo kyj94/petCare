@@ -1,56 +1,112 @@
-* {
-	padding: 0px;
-	margin: 0px;
-	color:#3d3d3d;
+/***************************************
+	공통 사항
+***************************************/
+
+
+/***************************************
+	
+***************************************/
+
+h1.hlist {
+position: absolute;
+width: 89px;
+height: 29px;
+left: 674px;
+top: 120px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #3D3D3D;
+	
 }
 
-iframe {
-	border: 1px solid red;
+br {
+	position: absolute;
+width: 1000px;
+height: 0px;
+left: 220px;
+top: 169.11px;
+
+border: 3px solid #3D3D3D;
+transform: rotate(-0.01deg);
 }
 
-div.main {
-	/* border: 1px solid blue; */
-	width: 1000px;
-	margin: auto;
+div.aname {
+	position: absolute;
+width: 154.87px;
+height: 95px;
+left: 220px;
+top: 184px;
+
+background: #98DFFF;
 }
 
-div.main ul {
-	list-style-type:none;
+div.aname > span {
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
 }
 
-.section1 {
-	/* border: 1px solid green; */
+form[name="areaForm"] {
+position: absolute;
+width: 845px;
+height: 95px;
+left: 375px;
+top: 184px;
+
+background: #F5F5F5;
 }
 
-.section1 h1 {
-	/* border: 1px solid red; */
-	text-align:center;
-	font-size:24px;
-	font-weight:bold;
-	padding:20px 0px;
-	border-bottom:3px solid #3d3d3d;
-	pargin-bottom:15px;
+div.time {
+	position: absolute;
+width: 155px;
+height: 45px;
+left: 220px;
+top: 289px;
+
+background: #98DFFF;
 }
 
-.section1 > div > div > div {
-	border: 1px solid green;
+form[name="timeForm"] {
+position: absolute;
+width: 845px;
+height: 45px;
+left: 375px;
+top: 289px;
+
+background: #F5F5F5;
 }
 
-.section1 > div > div > div > span {
-	border: 1px solid red;
+div.animal {
+	position: absolute;
+width: 155px;
+height: 45px;
+left: 220px;
+top: 344px;
+
+background: #98DFFF;
 }
 
+form[name="animalForm"] {
+	position: absolute;
+width: 845px;
+height: 45px;
+left: 375px;
+top: 344px;
 
-
-section3.map {
-	border: 5px solid green;
-	height:2000px;
+background: #F5F5F5;
 }
-
-
-
-
-
-/* section1, section2, section3 {
-	border: 1px solid green;
-} */

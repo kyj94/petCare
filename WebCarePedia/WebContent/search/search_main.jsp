@@ -1,137 +1,135 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="EUC-KR">
+	<meta charset="UTF-8">
 	<title>pet care pedia</title>
 	<link rel="stylesheet" href="http://localhost:9000/WebCarePedia/css/search_main.css">
+	<!-- <link rel="stylesheet" href="http://localhost:9000/WebCarePedia/css/search_main_P.css">  -->
 </head>
 
 <body>
 	<!-- header -->
 	<iframe width="100%" height="100px"></iframe>
 	
-	<!-- content -->
-	<!--  -->
-	<div class="main">
 	
-		<!-- °Ë»öÇÊÅÍ -->
-		<section class="section1">
+	<!-- content -->
+	<div class="smain">
+	
+		<!-- ê²€ìƒ‰í•„í„° -->
 			<div>
-				<h1>µ¿¹°º´¿ø</h1>
-				<div>
-					<div>
-						<span>Áö¿ª±¸ºÐ</span>
+				<h1 class="hlist">ë™ë¬¼ë³‘ì›</h1>
+				<br>
+				<section class="section1">
+				<div class="area">
+					<div class="aname">
+						<span>ì§€ì—­êµ¬ë¶„</span>
 					</div>
-					<from name="areaForm" action="#" method="get">
-					<ul>
-						<li>
-							<input type="checkbox" name="area" checked="checked"><span>¼­¿ï ÀüÃ¼</span>
-							<input type="checkbox" name="area"><span>°­³²±¸</span>
-							<input type="checkbox" name="area"><span>°­µ¿±¸</span>
-							<input type="checkbox" name="area"><span>°­ºÏ±¸</span>
-							<input type="checkbox" name="area"><span>°­¼­±¸</span>
-							<input type="checkbox" name="area"><span>°ü¾Ç±¸</span>
-							<input type="checkbox" name="area"><span>±¤Áø±¸</span>
-							<input type="checkbox" name="area"><span>±¸·Î±¸</span>
-							<input type="checkbox" name="area"><span>±ÝÃµ±¸</span>
-							<input type="checkbox" name="area"><span>³ë¿ø±¸</span>
-						</li>
-						
-						<li>
-							<input type="checkbox" name="area"><span>µµºÀ±¸</span>
-							<input type="checkbox" name="area"><span>µ¿´ë¹®±¸</span>
-							<input type="checkbox" name="area"><span>µ¿ÀÛ±¸</span>
-							<input type="checkbox" name="area"><span>¸¶Æ÷±¸</span>
-							<input type="checkbox" name="area"><span>¼­´ë¹®±¸</span>
-							<input type="checkbox" name="area"><span>¼­ÃÊ±¸</span>
-							<input type="checkbox" name="area"><span>¼ºµ¿±¸</span>
-							<input type="checkbox" name="area"><span>¼ººÏ±¸</span>
-							<input type="checkbox" name="area"><span>¼ÛÆÄ±¸</span>
-							<input type="checkbox" name="area"><span>¾çÃµ±¸</span>
-						</li>
-						
-						<li>
-							<input type="checkbox" name="area"><span>¿µµîÆ÷±¸</span>
-							<input type="checkbox" name="area"><span>¿ë»ê±¸</span>
-							<input type="checkbox" name="area"><span>ÀºÆò±¸</span>
-							<input type="checkbox" name="area"><span>Á¾·Î±¸</span>
-							<input type="checkbox" name="area"><span>Áß±¸</span>
-							<input type="checkbox" name="area"><span>Áß¶û±¸</span>
-						</li>
+					
+					<div>
+					<form name="areaForm" action="#" method="get">
+					<ul class="l1">
+						<li><input type="checkbox" name="area" checked="checked"><span>ì„œìš¸ ì „ì²´</span></li>
+						<li><input type="checkbox" name="area"><span>ê°•ë‚¨êµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>ê°•ë™êµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>ê°•ë¶êµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>ê°•ì„œêµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>ê´€ì•…êµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>ê´‘ì§„êµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>êµ¬ë¡œêµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>ê¸ˆì²œêµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>ë…¸ì›êµ¬</span></li>
 					</ul>
+					
+					<ul class="l2">
+						<li><input type="checkbox" name="area"><span>ë„ë´‰êµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>ë™ëŒ€ë¬¸êµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>ë™ìž‘êµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>ë§ˆí¬êµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>ì„œëŒ€ë¬¸êµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>ì„œì´ˆêµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>ì„±ë™êµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>ì„±ë¶êµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>ì†¡íŒŒêµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>ì–‘ì²œêµ¬</span></li>
+					</ul>
+					
+					<ul class="l3">
+						<li><input type="checkbox" name="area"><span>ì˜ë“±í¬êµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>ìš©ì‚°êµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>ì€í‰êµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>ì¢…ë¡œêµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>ì¤‘êµ¬</span></li>
+						<li><input type="checkbox" name="area"><span>ì¤‘ëž‘êµ¬</span></li>
+					</ul>
+					</form>
+					</div>
 				</div>
 				
-				<div>
-					<a>Áø·á ½Ã°£</a>
-					<from name="timeForm" action="#" method="get">
-					<ul>
-						<li>
-							<input type="checkbox" name="time"><span>Áø·áÁß</span>
-							<input type="checkbox" name="time"><span>ÈÞÀÏÁø·á</span>
-							<input type="checkbox" name="time"><span>¾ß°£Áø·á</span>
-						</li>
-					</ul>
-				</div>
+				<div class="time">
+				<a>ì§„ë£Œ ì‹œê°„</a>
+				<form name="timeForm" action="#" method="get">
+				<ul>
+					<li><input type="checkbox" name="time"><span>ì§„ë£Œì¤‘</span></li>
+					<li><input type="checkbox" name="time"><span>íœ´ì¼ì§„ë£Œ</span></li>
+					<li><input type="checkbox" name="time"><span>ì•¼ê°„ì§„ë£Œ</span></li>
+				</ul>
+				</form>
+				</div>		
 				
-				<div>
-					<a>¹Ý·Áµ¿¹° À¯Çü</a>
-					<from name="animalForm" action="#" method="get">
-					<ul>
-						<li>
-							<input type="checkbox" name="animal"><span>°­¾ÆÁö</span>
-							<input type="checkbox" name="animal"><span>°í¾çÀÌ</span>
-							<input type="checkbox" name="animal"><span>ÆÄÃæ·ù</span>
-							<input type="checkbox" name="animal"><span>Á¶·ù</span>
-							<input type="checkbox" name="animal"><span>±âÅ¸</span>
-						</li>
-					</ul>
+				<div class="animal">
+					<a>ë°˜ë ¤ë™ë¬¼ ìœ í˜•</a>
+					<form name="animalForm" action="#" method="get">
+						<ul>
+							<li><input type="checkbox" name="animal"><span>ê°•ì•„ì§€</span></li>
+							<li><input type="checkbox" name="animal"><span>ê³ ì–‘ì´</span></li>
+							<li><input type="checkbox" name="animal"><span>íŒŒì¶©ë¥˜</span></li>
+							<li><input type="checkbox" name="animal"><span>ì¡°ë¥˜</span></li>
+							<li><input type="checkbox" name="animal"><span>ê¸°íƒ€</span></li>
+						</ul>
+					</form>
 				</div>
+			</section>
 			</div>
-		</section>
 		
-		<!-- °Ë»öµÈ º´¿ø ¸®½ºÆ® -->
+		<!-- ê²€ìƒ‰ëœ ë³‘ì› ë¦¬ìŠ¤íŠ¸ -->
 		<section class="section2">
 			<div class="section_d1">
 				<div class="d1_1">
-					<a href="http://www.naver.com">
-						<div class="card_top">
-							<div>
-								<span>´õÁÁÀºµ¿¹°º´¿ø</span>
-								<span>¡Ú5.0</span>
-								<span>02-1234-1234</span>
-							</div>
+					<a href="http://www.naver.com"></a>
+					<div class="card_top">
 						<div>
+							<span>ë”ì¢‹ì€ë™ë¬¼ë³‘ì›</span>
+							<span>â˜…5.0</span>
+							<span>02-1234-1234</span>
+						</div>
 						
 						<div>
 						<img src="../image/foot_blue.png">
 						</div>
-					</a>
-				</div>		
-				
-				<div>
-					<span>°­³²±¸ ¿ª»ïµ¿</span>
-					<span>Áø·á Áß</span>
-				</div>
-				
-				<div>
-					<button type="button">¿¹¾àÇÏ±â
+						
+					<div>
+						<span>ê°•ë‚¨êµ¬ ì—­ì‚¼ë™</span>
+						<span>ì§„ë£Œ ì¤‘</span>
+					</div>						
+					
+					<div>
+						<button type="button">ì˜ˆì•½í•˜ê¸°</button>
+					</div>
+					</div>
 				</div>
 			</div>
 		</section>
 		
-		<!-- ÁöµµAPI -->
+		<!-- ì§€ë„API -->
 		<section class="section3">
 			<div class="map">
 			</div>
 		</section>
-	
-	
-	
-	
-	
 	</div>
+	
+
 	<!-- footer -->
 	<iframe width="100%" height="100px"></iframe>
 </body>
