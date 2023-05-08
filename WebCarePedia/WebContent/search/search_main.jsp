@@ -15,21 +15,24 @@
 	
 	
 	<!-- content -->
-	<div class="smain">
+	<div id="smain">
 	
 		<!-- 검색필터 -->
 			<div>
-				<h1 class="hlist">동물병원</h1>
-				<br>
-				<section class="section1">
-				<div class="area">
-					<div class="aname">
+				<h1 id="hlist">동물병원</h1>
+				
+				
+				<!-- 지역구분 -->
+				
+				<section id="section1">
+				<div id="area">
+					<div id="aname">
 						<span>지역구분</span>
 					</div>
 					
 					<div>
 					<form name="areaForm" action="#" method="get">
-					<ul class="l1">
+					<ul id="l1">
 						<li><input type="checkbox" name="area" checked="checked"><span>서울 전체</span></li>
 						<li><input type="checkbox" name="area"><span>강남구</span></li>
 						<li><input type="checkbox" name="area"><span>강동구</span></li>
@@ -42,7 +45,7 @@
 						<li><input type="checkbox" name="area"><span>노원구</span></li>
 					</ul>
 					
-					<ul class="l2">
+					<ul id="l2">
 						<li><input type="checkbox" name="area"><span>도봉구</span></li>
 						<li><input type="checkbox" name="area"><span>동대문구</span></li>
 						<li><input type="checkbox" name="area"><span>동작구</span></li>
@@ -55,7 +58,7 @@
 						<li><input type="checkbox" name="area"><span>양천구</span></li>
 					</ul>
 					
-					<ul class="l3">
+					<ul id="l3">
 						<li><input type="checkbox" name="area"><span>영등포구</span></li>
 						<li><input type="checkbox" name="area"><span>용산구</span></li>
 						<li><input type="checkbox" name="area"><span>은평구</span></li>
@@ -66,9 +69,12 @@
 					</form>
 					</div>
 				</div>
+			</div>
 				
-				<div class="time">
-				<a>진료 시간</a>
+				<div id="time">
+					<div id="stime">
+						<span>진료시간</span>
+					</div>
 				<form name="timeForm" action="#" method="get">
 				<ul>
 					<li><input type="checkbox" name="time"><span>진료중</span></li>
@@ -78,8 +84,10 @@
 				</form>
 				</div>		
 				
-				<div class="animal">
-					<a>반려동물 유형</a>
+				<div id="animal">
+					<div id="snimal">
+						<span>반려동물 유형</span>
+					</div>
 					<form name="animalForm" action="#" method="get">
 						<ul>
 							<li><input type="checkbox" name="animal"><span>강아지</span></li>
@@ -94,11 +102,11 @@
 			</div>
 		
 		<!-- 검색된 병원 리스트 -->
-		<section class="section2">
-			<div class="section_d1">
-				<div class="d1_1">
+		<section id="section2">
+			<div id="section_d1">
+				<div id="d1_1">
 					<a href="http://www.naver.com"></a>
-					<div class="card_top">
+					<div id="card_top">
 						<div>
 							<span>더좋은동물병원</span>
 							<span>★5.0</span>
@@ -123,8 +131,8 @@
 		</section>
 		
 		<!-- 지도API -->
-		<section class="section3">
-			<div class="map">
+		<section id="section3">
+			<div id="map">
 			</div>
 		</section>
 	</div>
