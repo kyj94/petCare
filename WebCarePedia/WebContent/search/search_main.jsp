@@ -69,6 +69,7 @@
 							<li><input type="checkbox" name="time" id="time" value="야간진료"><span>야간진료</span></li>
 						</ul>
 					</div>
+				</div>
 					
 					<div class="animal">
 						<div class="text_animal">
@@ -85,37 +86,130 @@
 							</ul>
 						</div>
 					</div>
-				</div>
 			</form>
 		</section>
 		
+		<div class="s2">
 		<!-- 검색리스트 -->
-		<section class="list">
-			<div class="list1">
-				<div class="hname">
-					<a href="http://www.naver.com">
-						<span>더좋은동물병원</span>
-						<span>★5.0</span>
-						<span>02-1234-1234</span>
-					</a>
+			<section class="list">
+				<div class="hlist">
+					<div class="list1">
+						<div class="hinfo">
+							<a href="http://www.naver.com">
+								<span>더좋은동물병원</span>
+								<span>⭐ 5.0</span>
+								<span>02-1234-1234</span>
+							</a>
+						
+							<span id="harea">강남구 역삼동</span>
+							<span id="htime">진료 중</span>
+							<button type="button" id="hservation">예약하기 ></button>
+						</div>
+						
+						<div class="himg">
+							<img src="http://localhost:9000/WebCarePedia/image/foot_blue.png" width="122px" height="122px">
+						</div>
+					</div>
+					
+					<div class="list1">
+						<div class="hinfo">
+							<a href="http://www.naver.com">
+								<span>더좋은동물병원</span>
+								<span>⭐ 5.0</span>
+								<span>02-1234-1234</span>
+							</a>
+						
+							<span id="harea">강남구 역삼동</span>
+							<span id="htime">진료 중</span>
+							<button type="button" id="hservation">예약하기 ></button>
+						</div>
+						
+						<div class="himg">
+							<img src="http://localhost:9000/WebCarePedia/image/foot_blue.png" width="122px" height="122px">
+						</div>
+					</div>
+					
+					<div class="list1">
+						<div class="hinfo">
+							<a href="http://www.naver.com">
+								<span>더좋은동물병원</span>
+								<span>⭐ 5.0</span>
+								<span>02-1234-1234</span>
+							</a>
+						
+							<span id="harea">강남구 역삼동</span>
+							<span id="htime">진료 중</span>
+							<button type="button" id="hservation">예약하기 ></button>
+						</div>
+						
+						<div class="himg">
+							<img src="http://localhost:9000/WebCarePedia/image/foot_blue.png" width="122px" height="122px">
+						</div>
+					</div>
+					
+					<div class="list1">
+						<div class="hinfo">
+							<a href="http://www.naver.com">
+								<span>더좋은동물병원</span>
+								<span>⭐ 5.0</span>
+								<span>02-1234-1234</span>
+							</a>
+						
+							<span id="harea">강남구 역삼동</span>
+							<span id="htime">진료 중</span>
+							<button type="button" id="hservation">예약하기 ></button>
+						</div>
+						
+						<div class="himg">
+							<img src="http://localhost:9000/WebCarePedia/image/foot_blue.png" width="122px" height="122px">
+						</div>
+					</div>
+					
+					<div class="list1">
+						<div class="hinfo">
+							<a href="http://www.naver.com">
+								<span>더좋은동물병원</span>
+								<span>⭐ 5.0</span>
+								<span>02-1234-1234</span>
+							</a>
+						
+							<span id="harea">강남구 역삼동</span>
+							<span id="htime">진료 중</span>
+							<button type="button" id="hservation">예약하기 ></button>
+						</div>
+						
+						<div class="himg">
+							<img src="http://localhost:9000/WebCarePedia/image/foot_blue.png" width="122px" height="122px">
+						</div>
+					</div>
+					
+					<div class="list1">
+						<div class="hinfo">
+							<a href="http://www.naver.com">
+								<span>더좋은동물병원</span>
+								<span>⭐ 5.0</span>
+								<span>02-1234-1234</span>
+							</a>
+						
+							<span id="harea">강남구 역삼동</span>
+							<span id="htime">진료 중</span>
+							<button type="button" id="hservation">예약하기 ></button>
+						</div>
+						
+						<div class="himg">
+							<img src="http://localhost:9000/WebCarePedia/image/foot_blue.png" width="122px" height="122px">
+						</div>
+					</div>
 				</div>
-				
-				<div class="hbutton">
-					<span>강남구 역삼동</span>
-					<span>진료 중</span>
-					<button type="button">예약하기</button>
-				</div>
-				
-				<div class="himg">
-					<img src="http://localhost:9000/WebCarePedia/image/foot_blue.png">
-				</div>
+			</section>
+			
+			<!-- 지도API -->
+			<section class="api">
+			<div class="hapi">
+				<img src="http://localhost:9000/WebCarePedia/image/foot_blue.png">
 			</div>
-		</section>
-		
-		<!-- 지도API -->
-		<section class="api">
-			<img src="http://localhost:9000/WebCarePedia/image/foot_blue.png">
-		</section>
+			</section>
+		</div>
 	</div> 
 
 	<!-- footer -->
