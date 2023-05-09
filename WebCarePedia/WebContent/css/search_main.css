@@ -11,7 +11,7 @@ div.search_main {
 	/* border: 1px solid gray; */
 	width: 1000px;
 	margin: auto;
-	text-align: center;
+	/* text-align: center; */
 }
 
 
@@ -258,7 +258,6 @@ div.s2 {
 	section_list
 ***************************************/
 div.hlist {
-	/* border: 1px solid red; */
 	width: 400px;
 	float: left;
 	margin-right: 20px;
@@ -266,10 +265,12 @@ div.hlist {
 
 div.list1{
 	/* border: 1px solid red; */
+	border: 1px solid #98DFFF;
+	border-radius: 5px;
 	width: 400px;
 	height: 152px;
 	display: flex;
-	
+	margin-bottom: 10px;
 }
 
 div.hinfo {
@@ -368,7 +369,7 @@ div.hapi {
 
 div.hapi img {
 	width: 576px;
-	height: 900px;
+
 }
 
 

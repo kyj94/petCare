@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>petCare pedia</title>
+	<title>petCarePedia</title>
 	<link rel="stylesheet" href="http://localhost:9000/WebCarePedia/css/search_main.css">
 </head>
 
@@ -107,7 +107,7 @@
 						</div>
 						
 						<div class="himg">
-							<img src="http://localhost:9000/WebCarePedia/image/foot_blue.png" width="122px" height="122px">
+							<img src="http://localhost:9000/WebCarePedia/image/search_main.png" width="122px" height="122px">
 						</div>
 					</div>
 					
@@ -125,7 +125,7 @@
 						</div>
 						
 						<div class="himg">
-							<img src="http://localhost:9000/WebCarePedia/image/foot_blue.png" width="122px" height="122px">
+							<img src="http://localhost:9000/WebCarePedia/image/search_main.png" width="122px" height="122px">
 						</div>
 					</div>
 					
@@ -143,7 +143,7 @@
 						</div>
 						
 						<div class="himg">
-							<img src="http://localhost:9000/WebCarePedia/image/foot_blue.png" width="122px" height="122px">
+							<img src="http://localhost:9000/WebCarePedia/image/search_main.png" width="122px" height="122px">
 						</div>
 					</div>
 					
@@ -161,7 +161,7 @@
 						</div>
 						
 						<div class="himg">
-							<img src="http://localhost:9000/WebCarePedia/image/foot_blue.png" width="122px" height="122px">
+							<img src="http://localhost:9000/WebCarePedia/image/search_main.png" width="122px" height="122px">
 						</div>
 					</div>
 					
@@ -179,7 +179,7 @@
 						</div>
 						
 						<div class="himg">
-							<img src="http://localhost:9000/WebCarePedia/image/foot_blue.png" width="122px" height="122px">
+							<img src="http://localhost:9000/WebCarePedia/image/search_main.png" width="122px" height="122px">
 						</div>
 					</div>
 					
@@ -197,7 +197,7 @@
 						</div>
 						
 						<div class="himg">
-							<img src="http://localhost:9000/WebCarePedia/image/foot_blue.png" width="122px" height="122px">
+							<img src="http://localhost:9000/WebCarePedia/image/search_main.png" width="122px" height="122px">
 						</div>
 					</div>
 				</div>
@@ -206,7 +206,7 @@
 			<!-- 지도API -->
 			<section class="api">
 			<div class="hapi">
-				<img src="http://localhost:9000/WebCarePedia/image/foot_blue.png">
+				<img src="http://localhost:9000/WebCarePedia/image/API.png">
 			</div>
 			</section>
 		</div>

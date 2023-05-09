@@ -7,15 +7,30 @@
 	color: #3d3d3d;
 }
 
-hr{
-/*  height:100vh;
- width:.5vw;
- border-width:0;
- color:#000;
- background-color:#000; */
+div.result_main {
+	border: 1px solid gray;
+	width: 1000px;
+	margin: auto;
+	/* text-align: center; */
 }
 
 
 /***************************************
-	section1
+	section_info
 ***************************************/
+div.image_d {
+	border: 1px solid gray;
+	height: 220px;
+	white-space: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
+	
+}
+
+div.image_d img {
+	/* border: 1px solid red; */
+	width: auto;
+	height: 100%;
+	display: inline-block;
+	margin: 0px -3px;
+}
