@@ -4,9 +4,8 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>pet care pedia</title>
+	<title>petCare pedia</title>
 	<link rel="stylesheet" href="http://localhost:9000/WebCarePedia/css/search_main.css">
-	<!-- <link rel="stylesheet" href="http://localhost:9000/WebCarePedia/css/search_main_P.css">  -->
 </head>
 
 <body>
@@ -15,128 +14,109 @@
 	
 	
 	<!-- content -->
-	<div id="smain">
-	
-		<!-- 검색필터 -->
-			<div>
-				<h1 id="hlist">동물병원</h1>
-				
-				
-				<!-- 지역구분 -->
-				
-				<section id="section1">
-				<div id="area">
-					<div id="aname">
+	<div class="search_main">
+		<!-- 필터 -->
+		<section class="filter">
+		<h1 class="title">동물병원</h1>
+		
+			<form name="search" action="#" method="get">
+				<div class="area">
+					<div class="text_area">
 						<span>지역구분</span>
 					</div>
 					
-					<div>
-					<form name="areaForm" action="#" method="get">
-					<ul id="l1">
-						<li><input type="checkbox" name="area" checked="checked"><span>서울 전체</span></li>
-						<li><input type="checkbox" name="area"><span>강남구</span></li>
-						<li><input type="checkbox" name="area"><span>강동구</span></li>
-						<li><input type="checkbox" name="area"><span>강북구</span></li>
-						<li><input type="checkbox" name="area"><span>강서구</span></li>
-						<li><input type="checkbox" name="area"><span>관악구</span></li>
-						<li><input type="checkbox" name="area"><span>광진구</span></li>
-						<li><input type="checkbox" name="area"><span>구로구</span></li>
-						<li><input type="checkbox" name="area"><span>금천구</span></li>
-						<li><input type="checkbox" name="area"><span>노원구</span></li>
-					</ul>
-					
-					<ul id="l2">
-						<li><input type="checkbox" name="area"><span>도봉구</span></li>
-						<li><input type="checkbox" name="area"><span>동대문구</span></li>
-						<li><input type="checkbox" name="area"><span>동작구</span></li>
-						<li><input type="checkbox" name="area"><span>마포구</span></li>
-						<li><input type="checkbox" name="area"><span>서대문구</span></li>
-						<li><input type="checkbox" name="area"><span>서초구</span></li>
-						<li><input type="checkbox" name="area"><span>성동구</span></li>
-						<li><input type="checkbox" name="area"><span>성북구</span></li>
-						<li><input type="checkbox" name="area"><span>송파구</span></li>
-						<li><input type="checkbox" name="area"><span>양천구</span></li>
-					</ul>
-					
-					<ul id="l3">
-						<li><input type="checkbox" name="area"><span>영등포구</span></li>
-						<li><input type="checkbox" name="area"><span>용산구</span></li>
-						<li><input type="checkbox" name="area"><span>은평구</span></li>
-						<li><input type="checkbox" name="area"><span>종로구</span></li>
-						<li><input type="checkbox" name="area"><span>중구</span></li>
-						<li><input type="checkbox" name="area"><span>중랑구</span></li>
-					</ul>
-					</form>
+					<div class="check_area">
+						<ul>
+							<li><input type="checkbox" name="area" id="area" value="서울전체" checked="checked"><span>서울 전체</span></li>
+							<li><input type="checkbox" name="area" id="area" value="강남구"><span>강남구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="강동구"><span>강동구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="강북구"><span>강북구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="강서구"><span>강서구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="관악구"><span>관악구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="광진구"><span>광진구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="구로구"><span>구로구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="금천구"><span>금천구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="노원구"><span>노원구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="도봉구"><span>도봉구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="동대문구"><span>동대문구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="동작구"><span>동작구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="마포구"><span>마포구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="서대문구"><span>서대문구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="서초구"><span>서초구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="성동구"><span>성동구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="성북구"><span>성북구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="송파구"><span>송파구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="양천구"><span>양천구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="영등포구"><span>영등포구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="용산구"><span>용산구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="은평구"><span>은평구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="종로구"><span>종로구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="중구"><span>중구</span></li>
+							<li><input type="checkbox" name="area" id="area" value="중랑구"><span>중랑구</span></li>
+						</ul>
 					</div>
 				</div>
-			</div>
 				
-				<div id="time">
-					<div id="stime">
+				<div class="time">
+					<div class="text_time">
 						<span>진료시간</span>
 					</div>
-				<form name="timeForm" action="#" method="get">
-				<ul>
-					<li><input type="checkbox" name="time"><span>진료중</span></li>
-					<li><input type="checkbox" name="time"><span>휴일진료</span></li>
-					<li><input type="checkbox" name="time"><span>야간진료</span></li>
-				</ul>
-				</form>
-				</div>		
-				
-				<div id="animal">
-					<div id="snimal">
-						<span>반려동물 유형</span>
-					</div>
-					<form name="animalForm" action="#" method="get">
-						<ul>
-							<li><input type="checkbox" name="animal"><span>강아지</span></li>
-							<li><input type="checkbox" name="animal"><span>고양이</span></li>
-							<li><input type="checkbox" name="animal"><span>파충류</span></li>
-							<li><input type="checkbox" name="animal"><span>조류</span></li>
-							<li><input type="checkbox" name="animal"><span>기타</span></li>
-						</ul>
-					</form>
-				</div>
-			</section>
-			</div>
-		
-		<!-- 검색된 병원 리스트 -->
-		<section id="section2">
-			<div id="section_d1">
-				<div id="d1_1">
-					<a href="http://www.naver.com"></a>
-					<div id="card_top">
-						<div>
-							<span>더좋은동물병원</span>
-							<span>★5.0</span>
-							<span>02-1234-1234</span>
-						</div>
-						
-						<div>
-						<img src="../image/foot_blue.png">
-						</div>
-						
-					<div>
-						<span>강남구 역삼동</span>
-						<span>진료 중</span>
-					</div>						
 					
-					<div>
-						<button type="button">예약하기</button>
+					<div class="check_time">
+						<ul>
+							<li><input type="checkbox" name="time" id="time" value="진료중"><span>진료중</span></li>
+							<li><input type="checkbox" name="time" id="time" value="휴일진료"><span>휴일진료</span></li>
+							<li><input type="checkbox" name="time" id="time" value="야간진료"><span>야간진료</span></li>
+						</ul>
 					</div>
+					
+					<div class="animal">
+						<div class="text_animal">
+							<span>반려동물 유형</span>
+						</div>
+						
+						<div class="check_animal">
+							<ul>
+								<li><input type="checkbox" name="animal" id="anumal" value="강아지"><span>강아지</span></li>
+								<li><input type="checkbox" name="animal" id="anumal" value="고양이"><span>고양이</span></li>
+								<li><input type="checkbox" name="animal" id="anumal" value="파충류"><span>파충류</span></li>
+								<li><input type="checkbox" name="animal" id="anumal" value="조류"><span>조류</span></li>
+								<li><input type="checkbox" name="animal" id="anumal" value="기타"><span>기타</span></li>
+							</ul>
+						</div>
 					</div>
+				</div>
+			</form>
+		</section>
+		
+		<!-- 검색리스트 -->
+		<section class="list">
+			<div class="list1">
+				<div class="hname">
+					<a href="http://www.naver.com">
+						<span>더좋은동물병원</span>
+						<span>★5.0</span>
+						<span>02-1234-1234</span>
+					</a>
+				</div>
+				
+				<div class="hbutton">
+					<span>강남구 역삼동</span>
+					<span>진료 중</span>
+					<button type="button">예약하기</button>
+				</div>
+				
+				<div class="himg">
+					<img src="http://localhost:9000/WebCarePedia/image/foot_blue.png">
 				</div>
 			</div>
 		</section>
 		
 		<!-- 지도API -->
-		<section id="section3">
-			<div id="map">
-			</div>
+		<section class="api">
+			<img src="http://localhost:9000/WebCarePedia/image/foot_blue.png">
 		</section>
-	</div>
-	
+	</div> 
 
 	<!-- footer -->
 	<iframe width="100%" height="100px"></iframe>

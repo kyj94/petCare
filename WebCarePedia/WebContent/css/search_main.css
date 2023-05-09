@@ -7,14 +7,18 @@
 	color: #3d3d3d;
 }
 
-div#smain {
+div.search_main {
 	border: 1px solid gray;
 	width: 1000px;
 	margin: auto;
 	text-align: center;
 }
 
-h1#hlist {
+
+/***************************************
+	section_filter
+***************************************/
+h1.title {
 	text-align:center;
 	font-size:24px;
 	font-weight:bold;
@@ -23,89 +27,46 @@ h1#hlist {
 	pargin-bottom:15px;
 }
 
-ul {
-	list-style-type: none;
+div.area {
+	
 }
 
-ul li {
-	float: left;
-	font-size: 12px;
+div.area {
+	border: 1px solid green;	
+	display: flex;
+	align-items: center;
+	
 }
 
-
-/***************************************
-	section1
-***************************************/
-
-section#section1 {
-	/* border: 5px solid red; */
-}
-
-section#section1 div#area {
-	/* border: 5px solid black; */
-}
-
-section#section1 div#area div#aname {
+div.text_area {
+	
 	width: 155px;
 	height: 95px;
 	background: #98DFFF;
 	text-align: center;
-	float:left;
-}
-
-section#section1 div#area div#aname span{
-	color: white;
-	font-size: 14px;
-	font-weight: bold;
-	margin: 30px 0px;
-	display: inline-block;
-}
-
-form[name="areaForm"] {
-	width: 850px;
-	height: 95px;
-	background: #F5F5F5;
-}
-
-
-#l1 span, #l2 span, #l3 span {
-	/* border: 1px solid red; */
-	width: 55px;
-	height: 15px;
-	display: inline-block;
-	text-align: left;
-	padding: 8px 10px;
-	font-size: 12px;
-	/* clear: both; */
-}
-
-div#stime {
-	width: 155px;
-	height: 45px;
-	margin: 10px 0px;
-	background: #98DFFF;
-	text-align: center;
-	float:left;
-}
-
-div#stime span {
-	color: white;
-	font-size: 14px;
-	font-weight: bold;
 	margin: 15px 0px;
-	display: inline-block; 
+	float: left;
 }
 
-form[name="timeForm"] {
-	width: 1000px;
-	height: 45px;
-	margin: 10px 0px;
+div.text_area span {
+	color: white;
+}
+
+div.check_area {
+	border: 1px solid red;	
+	width: 845px;
+	height: 95px;
 	background: #F5F5F5;
 }
 
+div.check_area ul {
+	list-style-type:none;
+	float: left;
+}
 
-
-
+div.check_area ul li {
+	float: left;
+}
 
 
 
