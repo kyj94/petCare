@@ -28,31 +28,46 @@
 				</div>
 				
 				<div class="name_d">
-					<a>서울</a> > <a>강남구</a>
-					<span>더조은동물병원</span>
-					<span>⭐ 5.0 | 리뷰 60</span>
+					<div class="area_d">
+						<a href="http://www.naver.com">서울</a>
+						<span>></span>
+						<a href="http://www.naver.com">강남구</a>
+					</div>
 					
-					<button type="button">간편 예약하기               ></button>
-					<button type="button">리뷰하기</button>
-					<button type="button">공유하기</button>
-					<button type="button">찜하기</button>
+					<span class="name">더조은동물병원</span>
+					<span class="grade">⭐ 5.0 | 리뷰 60</span>
+					
+					<button type="button" id="reservation"><img src="http://localhost:9000/WebCarePedia/image/cal.png">간편 예약하기 ></button>
+					
+					<div class="buttons">
+						<button type="button" id="review"><img src="http://localhost:9000/WebCarePedia/image/review.png">리뷰하기</button>
+						<button type="button" id="share"><img src="http://localhost:9000/WebCarePedia/image/share.png">공유하기</button>
+						<button type="button" id="like"><img src="http://localhost:9000/WebCarePedia/image/like.png">찜하기</button>
+					</div>
 				</div>
 				
+				<hr>
+				
 				<div class="link">
-					<span>서울특별시 강남구 강남대로78길 8 한국빌딩 4F, 8F</span>
-					<span><a herf="http://www.naver.com">병원 홈페이지 가기</a></span>
-					<span>010-1234-1234</span>
+					<span><img src="http://localhost:9000/WebCarePedia/image/loc.png">서울특별시 강남구 강남대로78길 8 한국빌딩 4F, 8F</span>
+					<span><img src="http://localhost:9000/WebCarePedia/image/home.png"><a herf="http://www.naver.com">병원 홈페이지 가기</a></span>
+					<span><img src="http://localhost:9000/WebCarePedia/image/call.png">010-1234-1234</span>
 				</div>
+				
+				<hr>
 				
 				<div class="nav">
 					<span>병원정보</span>
 					<span>리뷰</span>
 				</div>
 				
+				<hr>
+				
 				<div class="api_info">
 					<div class="api">
 						<span>병원정보</span>
 						<span>위치 & 진료시간</span>
+						<img src="http://localhost:9000/WebCarePedia/image/map.png">
 						<span>서울특별시 강남구 강남대로78길 8 한국빌딩 4F, 8F</span>
 					</div>
 					
@@ -65,6 +80,7 @@
 							<li>금</li>
 							<li>토</li>
 							<li>일</li>
+							<li>공휴일</li>
 						</ul>
 						
 						<ul>
@@ -79,6 +95,8 @@
 						</ul>
 					</div>
 				</div>
+				
+				<hr>
 			</div>
 		
 		</section>
@@ -86,11 +104,15 @@
 		<section class="review">
 			<div class="list">
 				<div class="grade">
-					<span>5.0 / 5</span>
-					<span> ⭐ ⭐ ⭐ ⭐ ⭐</span>
+					<span>리뷰 60</span>
+					
+					<div class="total">
+						<span>5.0 / 5</span>
+						<span> ⭐ ⭐ ⭐ ⭐ ⭐</span>
+					</div>
 				</div>
 				
-				<div class="filter">
+				<!-- <div class="filter">
 					<span>동물종류</span>
 					<div class="dropdown-content">
 						<p>기본정렬</p>
@@ -107,7 +129,7 @@
 						 <p>평점 높은 순서</p>
 						 <p>평점 낮은 순서</p>
 					</div>
-				</div>
+				</div> -->
 				
 				<div class="review_card">
 					<div class="member">
@@ -123,7 +145,7 @@
 						<p>리뷰내용</p>
 					</div>
 					
-					<div class="data">
+					<div class="date">
 						<span>작성 일자 : 2023-04-28</span>
 						<span>진료 일자 : 2023-04-26</span>
 						<span><a href="http://www.naver.com">신고하기</a></span>

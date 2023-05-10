@@ -16,10 +16,10 @@ div.result_main {
 
 
 /***************************************
-	section_info
+	section_info_info
 ***************************************/
 div.image_d {
-	border: 1px solid gray;
+	/* border: 1px solid gray; */
 	height: 220px;
 	white-space: nowrap;
 	overflow-x: auto;
@@ -34,3 +34,292 @@ div.image_d img {
 	display: inline-block;
 	margin: 0px -3px;
 }
+
+div.name_d {
+	/* border: 1px solid red; */
+	margin-left: 5px;
+	padding-bottom: 20px;
+	
+}
+
+div.area_d {
+	/* border: 1px solid red; */
+	padding-top: 20px;
+	font-size: 14px;
+}
+
+span.name {
+	/* border: 1px solid red; */
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 10px;
+	display: block;
+}
+
+span.grade {
+	/* border: 1px solid red; */
+	font-size: 14px;
+	margin-top: 10px;
+	display: block;
+}
+
+div.name_d button#reservation {
+	background: #98DFFF;
+	color: white;
+	border-style: none;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	/* padding: 15px 20px 15px 50px; */
+	margin-top: 10px;
+	width: 450px;
+	height: 45px;
+	text-align: left;
+	display: flex;
+	align-items: center;
+		
+}
+
+div.name_d button#reservation: hover {
+	cursor: pointer;
+}
+
+div.name_d button#reservation img {
+	/* border: 1px solid red; */
+	width: 30px;
+	margin: 0px 10px;
+}
+
+div.buttons {
+	/* border: 1px solid red; */
+	display: flex;
+	align-items: center;
+	
+}
+
+div.name_d button#review {
+	background: #FFB3BD;
+	border-style: none;
+	border-radius: 5px;
+	font-size: 15px;
+	margin-top: 10px;
+	width: 120px;
+	height: 40px;
+	text-align: left;
+	display: flex;
+	align-items: center;
+	margin-right: 45px;
+}
+
+div.name_d button#share, div.name_d button#like  {
+	background: #FFFFFF;
+	border: 1px solid #8A8A8A;
+	border-radius: 5px;
+	font-size: 15px;
+	margin-top: 10px;
+	width: 120px;
+	height: 40px;
+	text-align: left;
+	display: flex;
+	align-items: center;
+	margin-right: 45px;
+}
+
+div.buttons img {
+	/* border: 1px solid red; */
+	width: 30px;
+	margin: 0px 10px;
+}
+
+hr {
+	border: 1px solid #828282;
+}
+
+
+/***************************************
+	section_info_link
+***************************************/
+div.link {
+	/* border: 1px solid red; */
+	margin-left: 5px;
+	padding-bottom: 20px;
+}
+
+div.link span {
+	display: block;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+}
+
+div.link span:first-child {
+	/* border: 1px solid red; */
+	margin-top: 20px;
+}
+
+div.link span:nth-child(2), div.link span:nth-child(3) {
+	/* border: 1px solid red; */
+	margin-top: 15px;
+}
+
+div.link img {
+	width: 25px;
+	padding-right: 10px;
+}
+
+/***************************************
+	section_info_nav
+***************************************/
+div.nav {
+	/* border: 1px solid red; */
+	padding: 20px 0px 20px 5px;
+}
+
+div.nav span {
+	margin-right: 50px;
+	font-size: 18px;
+}
+
+
+/***************************************
+	section_info_api_info
+***************************************/
+div.api_info {
+	/* border: 1px solid red; */
+	margin-left: 5px;
+	padding-bottom: 20px;
+	display: flex;
+	
+}
+
+div.api {
+	/* border: 1px solid red; */
+	width: 400px;
+	
+}
+
+div.api span:first-child {
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	padding-top: 20px;
+}
+
+div.api span:nth-child(2) {
+	font-size: 16px;
+	display: block;
+	padding-top: 15px;
+}
+
+div.api span:last-child {
+	/* border: 2px solid red; */
+	font-size: 14px;
+	/* display: block; */
+	background: #828282;
+	width: 350px;
+	height: 65px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.api img {
+	width: 350px;
+	height: 285px;
+	padding-top: 15px;
+}
+
+
+/***************************************
+	section_info_api_time
+***************************************/
+div.time {
+	/* border: 2px solid green; */
+	display: flex;
+}
+
+div.time ul {
+	list-style-type: none;
+	font-size: 14px;
+	margin-top: 90px;
+}
+
+div.time ul:first-child {
+	margin-left: 100px;
+}
+
+div.time ul li:nth-child(6), div.time ul li:nth-child(7), div.time ul li:nth-child(8) {
+	color: red;
+}
+
+div.time ul li {
+	margin-bottom: 10px;
+	margin-right: 50px;
+}
+
+
+/***************************************
+	section_review
+***************************************/
+div.list {
+	border: 2px solid red;
+	margin-left: 10px;
+	padding-bottom: 20px;
+}
+
+div.grade {
+	/* border: 2px solid green; */
+	width: 150px;
+	float:left;
+}
+
+div.grade > span{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px 0px;
+	display: inline-block;
+}
+
+div.total {
+	border: 1px solid #8A8A8A;
+	border-radius:5px;
+	text-align: center;
+	padding: 20px 0px;
+	
+}
+
+div.total span:first-child {
+	font-size: 18px;
+	display:block;
+}
+
+div.total span:last-child {
+	font-size: 14px;
+}
+
+div.filter {
+	border: 1px solid green;
+	width: 400px;
+	float: right;
+}
+
+
+div.review_card {
+	border: 1px solid #98DFFF;
+	border-radius: 5px;
+	clear: both;
+	width: 900px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
