@@ -4,7 +4,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>pet care pedia</title>
+<link href="http://localhost:9000/WebCarePedia/image/foot_blue.png" rel="shortcut icon" type="image/x-icon">
+<title>reservation</title>
 <link rel="stylesheet" href="http://localhost:9000/WebCarePedia/css/search_reservation.css">
 
 

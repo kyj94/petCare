@@ -4,7 +4,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>petCarePedia</title>
+<link href="http://localhost:9000/WebCarePedia/image/foot_blue.png" rel="shortcut icon" type="image/x-icon">
+<title>result</title>
 <link rel="stylesheet" href="http://localhost:9000/WebCarePedia/css/search_result.css">
 </head>
 
@@ -37,12 +38,8 @@
 					<span class="name">더조은동물병원</span>
 					<span class="grade">⭐ 5.0 | 리뷰 60</span>
 					
-					<button type="button" id="reservation" onclick="openPopup()"><img src="http://localhost:9000/WebCarePedia/image/cal.png">간편 예약하기 ></button>
-					<script>
-				      function openPopup() {
-				        window.open("search_reservation.jsp", "팝업창", "width=500px,height=500px");
-				      }
-				    </script>
+					<button type="button" id="reservation"><img src="http://localhost:9000/WebCarePedia/image/cal.png">간편 예약하기 ></button>
+					
 					
 					<div class="buttons">
 						<button type="button" id="review"><img src="http://localhost:9000/WebCarePedia/image/review.png">리뷰하기</button>

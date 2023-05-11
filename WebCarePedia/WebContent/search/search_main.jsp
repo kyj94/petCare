@@ -4,8 +4,13 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>petCarePedia</title>
+	<link href="http://localhost:9000/WebCarePedia/image/foot_blue.png" rel="shortcut icon" type="image/x-icon">
+	<title>main</title>
 	<link rel="stylesheet" href="http://localhost:9000/WebCarePedia/css/search_main.css">
+	
+	<script src="http://localhost:9000/mycgv_jsp/js/jquery-3.6.4.min.js"></script>
+	<script src="http://localhost:9000/WebCarePedia/js/search_main.js"></script>
+	
 </head>
 
 <body>
@@ -78,11 +83,11 @@
 						
 						<div class="check_animal">
 							<ul>
-								<li><input type="checkbox" name="animal" id="anumal" value="강아지"><span>강아지</span></li>
-								<li><input type="checkbox" name="animal" id="anumal" value="고양이"><span>고양이</span></li>
-								<li><input type="checkbox" name="animal" id="anumal" value="파충류"><span>파충류</span></li>
-								<li><input type="checkbox" name="animal" id="anumal" value="조류"><span>조류</span></li>
-								<li><input type="checkbox" name="animal" id="anumal" value="기타"><span>기타</span></li>
+								<li><input type="checkbox" name="animal" id="animal" value="강아지"><span>강아지</span></li>
+								<li><input type="checkbox" name="animal" id="animal" value="고양이"><span>고양이</span></li>
+								<li><input type="checkbox" name="animal" id="animal" value="파충류"><span>파충류</span></li>
+								<li><input type="checkbox" name="animal" id="animal" value="조류"><span>조류</span></li>
+								<li><input type="checkbox" name="animal" id="animal" value="기타"><span>기타</span></li>
 							</ul>
 						</div>
 					</div>
