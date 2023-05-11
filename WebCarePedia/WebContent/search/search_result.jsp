@@ -37,11 +37,16 @@
 					<span class="name">더조은동물병원</span>
 					<span class="grade">⭐ 5.0 | 리뷰 60</span>
 					
-					<button type="button" id="reservation"><img src="http://localhost:9000/WebCarePedia/image/cal.png">간편 예약하기 ></button>
+					<button type="button" id="reservation" onclick="openPopup()"><img src="http://localhost:9000/WebCarePedia/image/cal.png">간편 예약하기 ></button>
+					<script>
+				      function openPopup() {
+				        window.open("search_reservation.jsp", "팝업창", "width=500px,height=500px");
+				      }
+				    </script>
 					
 					<div class="buttons">
 						<button type="button" id="review"><img src="http://localhost:9000/WebCarePedia/image/review.png">리뷰하기</button>
-						<button type="button" id="share"><img src="http://localhost:9000/WebCarePedia/image/share.png">공유하기</button>
+						<!-- <button type="button" id="share"><img src="http://localhost:9000/WebCarePedia/image/share.png">공유하기</button> -->
 						<button type="button" id="like"><img src="http://localhost:9000/WebCarePedia/image/like.png">찜하기</button>
 					</div>
 				</div>
@@ -67,7 +72,7 @@
 					<div class="api">
 						<span>병원정보</span>
 						<span>위치 & 진료시간</span>
-						<img src="http://localhost:9000/WebCarePedia/image/map.png">
+						<img src="http://localhost:9000/WebCarePedia/image/API.png">
 						<span>서울특별시 강남구 강남대로78길 8 한국빌딩 4F, 8F</span>
 					</div>
 					
@@ -133,21 +138,28 @@
 				
 				<div class="review_card">
 					<div class="member">
-						<span>과테말라 냥이</span>
-						<span>✍11 ♥ 105</span>
-						<span>⭐ 5 / 5</span>
-						<span>친절  ⭐⭐⭐⭐⭐</span>
-						<span>위생  ⭐⭐⭐⭐⭐</span>
+						<div class="name">
+							<img src="http://localhost:9000/WebCarePedia/image/cat.png">
+							<span>과테말라 냥이</span>
+						</div>
+						
+						<hr class="member_hr">
+						<span class="stext">⭐ 5 / 5</span>
+						<hr class="member_hr">
+						<!-- <span>친절  ⭐⭐⭐⭐⭐</span>
+						<span>위생  ⭐⭐⭐⭐⭐</span> -->
+						<span class="stot">별점  ⭐⭐⭐⭐⭐</span>
 					</div>
 					
 					<div class="write">
-						<span>동물 종류 : 고양이</span>
-						<p>리뷰내용</p>
+						<h3>동물 종류 : 고양이</h3>
+						<p>리뷰내용거참우리고양이가리뷰내용거참우리고양이가리뷰내용거참우리고양이가리뷰내용거참우리고양이가리뷰내용거참우리고양이가리뷰내용거참우리고양이가리뷰내용거참우리고양이가리뷰내용거참우리고양이가리뷰내용거참우리고양이가리뷰내용거참우리고양이가리뷰내용거참우리고양이가리뷰내용거참우리고양이가리뷰내용거참우리고양이가</p>
 					</div>
 					
 					<div class="date">
 						<span>작성 일자 : 2023-04-28</span>
 						<span>진료 일자 : 2023-04-26</span>
+						<button id="like">좋아요     ♥️ 100</button>
 						<span><a href="http://www.naver.com">신고하기</a></span>
 					</div>
 				</div>

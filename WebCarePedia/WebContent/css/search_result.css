@@ -8,7 +8,7 @@
 }
 
 div.result_main {
-	border: 1px solid gray;
+	/* border: 1px solid gray; */
 	width: 1000px;
 	margin: auto;
 	/* text-align: center; */
@@ -72,7 +72,7 @@ div.name_d button#reservation {
 	font-weight: bold;
 	/* padding: 15px 20px 15px 50px; */
 	margin-top: 10px;
-	width: 450px;
+	width: 400px;
 	height: 45px;
 	text-align: left;
 	display: flex;
@@ -129,6 +129,10 @@ div.buttons img {
 	/* border: 1px solid red; */
 	width: 30px;
 	margin: 0px 10px;
+}
+
+div.name_d button:hover {
+	cursor: pointer;
 }
 
 hr {
@@ -195,7 +199,6 @@ div.api_info {
 div.api {
 	/* border: 1px solid red; */
 	width: 400px;
-	
 }
 
 div.api span:first-child {
@@ -222,6 +225,7 @@ div.api span:last-child {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-top:-4px;
 }
 
 div.api img {
@@ -263,15 +267,16 @@ div.time ul li {
 	section_review
 ***************************************/
 div.list {
-	border: 2px solid red;
-	margin-left: 10px;
-	padding-bottom: 20px;
+	/* border: 2px solid red; */
+	margin-left: 20px;
+	padding-bottom: 15px;
 }
 
 div.grade {
 	/* border: 2px solid green; */
 	width: 150px;
 	float:left;
+	margin-bottom: 15px;
 }
 
 div.grade > span{
@@ -299,7 +304,7 @@ div.total span:last-child {
 }
 
 div.filter {
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	width: 400px;
 	float: right;
 }
@@ -310,16 +315,98 @@ div.review_card {
 	border-radius: 5px;
 	clear: both;
 	width: 900px;
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 10px;
 }
 
+div.review_card div.member {
+	/* border: 1px solid #888888; */
+	width: 222px;
+	font-size: 14px;
+	text-align: center;
+	padding-top:30px;
+}
 
+div.review_card div.member img {
+	width: 35px;
+	padding-right: 5px;
+}
 
+div.member div.name {
+	/* border: 1px solid #888888; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* padding-bottom: 5px; */
+}
 
+hr.member_hr {
+	border: 1px solid #828282;
+	width: 150px;
+	margin: 10px auto 10px auto;
+}
 
+div.member span.stext {
+	/* border: 1px solid red; */
+	font-size: 14px;
+	
+}
 
+div.member span.stot {
+	/* border: 1px solid red; */
+	font-size: 12px;
+	display:inline-block;
+	margin-bottom: 20px;
+	
+}
 
+div.review_card div.write {
+	/* border: 1px solid red; */
+	width: 290px;
+	margin-left: 20px;
+	flex: 1;
+}
 
+div.review_card div.write > h3 {
+	font-size: 14px;
+	padding: 30px 0px 10px 0px;
+}
 
+div.review_card div.write >p {
+	font-size: 12px;
+}
 
+div.review_card div.date {
+	/* border: 1px solid red; */
+	width: 185px;
+	margin:30px 45px 0px 0px;
+	text-align: right;
+	
+}
 
+div.review_card div.date span {
+	font-size: 12px;
+	display:inline-block;
+}
 
+div.review_card div.date button#like {
+	border: 1px solid #98DFFF;
+	border-radius: 5px;
+	background: white;
+	font-size: 14px;
+	width: 165px;
+	height: 35px;
+	margin-top: 15px; 
+	
+}
+
+div.review_card div.date span:last-child {
+	margin-top: 7px;
+	/* border: 1px solid #98DFFF;	 */
+}
+
+div.review_card div.date a {
+	/* border: 1px solid #98DFFF; */
+	color: red;
+}
