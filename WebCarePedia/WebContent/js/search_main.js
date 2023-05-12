@@ -26,6 +26,47 @@ $(document).ready(function(){
 	
 	
 /*******************************************
+	체크박스 값 넘기기
+********************************************/	
+	 $('input[type="checkbox"][name="area"]').click(function() {
+		    		    
+		    // 변수로 다이렉트로 담을 경우에는 가장 위에 체크한 항목이 들어감
+			var area = $("input[name='area']:checked").val();
+		    
+			alert(area);
+		    /*$("span").text(arr);*/
+		  });
+	 
+	 $('input[type="checkbox"][name="time"]').click(function() {
+		    
+		    // 변수로 다이렉트로 담을 경우에는 가장 위에 체크한 항목이 들어감
+			var time = $("input[name='time']:checked").val();
+		    
+			alert(time);
+		    /*$("span").text(arr);*/
+		  });
+	 
+	 $('input[type="checkbox"][name="animal"]').click(function() {
+		    
+		    // 변수로 다이렉트로 담을 경우에는 가장 위에 체크한 항목이 들어감
+			var animal = $("input[name='animal']:checked").val();
+		    
+			alert(animal);
+		    /*$("span").text(arr);*/
+		  });
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/*******************************************
 	예약 버튼
 ********************************************/
 	$("#hservation").click(function() {

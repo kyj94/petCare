@@ -12,6 +12,7 @@ div.search_main {
 	width: 1000px;
 	margin: auto;
 	/* text-align: center; */
+	
 }
 
 
@@ -364,12 +365,19 @@ div.himg {
 div.hapi {
 	/* border: 1px solid red; */
 	width: 576px;
+  	height: 1000px;
+	margin-bottom: 10px;
 	/* clear: both; */
+	position: sticky;
+	top: 00px;
+
 }
 
-div.hapi img {
-	width: 576px;
 
+div.hapi iframe {
+	/* border: 1px solid red; */
+	width: 576px;
+	height: 100%;
 }
 
 
