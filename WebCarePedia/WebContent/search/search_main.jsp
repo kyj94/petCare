@@ -109,7 +109,9 @@
 							
 								<span id="harea">강남구 역삼동</span>
 								<span id="htime">진료 중</span>
-								<button type="button" id="hservation">예약하기 ></button>
+								<button type="button" id="hservation">예약하기
+								&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+								&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp></button>
 								<div id="hmodal" class="modal">
 								  <div class="modal-content">
 								    <span class="close">&times;</span>

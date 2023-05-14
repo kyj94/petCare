@@ -42,7 +42,11 @@
 					<span class="name">더조은동물병원</span>
 					<span class="grade">⭐ 5.0 | 리뷰 60</span>
 					
-					<button type="button" id="reservation"><img src="http://localhost:9000/WebCarePedia/image/cal.png">간편 예약하기 ></button>
+					<button type="button" id="reservation"><img src="http://localhost:9000/WebCarePedia/image/cal.png">간편 예약하기
+								&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+								&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+								&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+								&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp></button>
 					<div id="hmodal" class="modal">
 					  <div class="modal-content">
 					    <span class="close">&times;</span>
@@ -170,7 +174,7 @@
 					<div class="date">
 						<span>작성 일자 : 2023-04-28</span>
 						<span>진료 일자 : 2023-04-26</span>
-						<button id="like">좋아요     ♥️ 100</button>
+						<button id="like">좋아요&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp❤️ 100</button>
 						<span><a href="http://www.naver.com">신고하기</a></span>
 					</div>
 				</div>
