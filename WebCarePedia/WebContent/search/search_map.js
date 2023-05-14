@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	const api = {
+	const hospital = {
 			"DESCRIPTION" : {"SITEPOSTNO":"소재지우편번호","RGTMBDSNO":"권리주체일련번호","TOTEPNUM":"총인원","UPTAENM":"업태구분명","LASTMODTS":"최종수정일자","CLGENDDT":"휴업종료일자","UPDATEGBN":"데이터갱신구분","RDNWHLADDR":"도로명주소","DCBYMD":"폐업일자","SITEWHLADDR":"지번주소","Y":"좌표정보(Y)","DTLSTATEGBN":"상세영업상태코드","TRDSTATEGBN":"영업상태코드","X":"좌표정보(X)","OPNSFTEAMCODE":"개방자치단체코드","APVPERMYMD":"인허가일자","LINDSEQNO":"축산일련번호","UPDATEDT":"데이터갱신일자","LINDPRCBGBNNM":"축산물가공업구분명","BPLCNM":"사업장명","CLGSTDT":"휴업시작일자","RDNPOSTNO":"도로명우편번호","ROPNYMD":"재개업일자","MGTNO":"관리번호","LINDJOBGBNNM":"축산업무구분명","TRDSTATENM":"영업상태명","SITEAREA":"소재지면적","SITETEL":"전화번호","APVCANCELYMD":"인허가취소일자","DTLSTATENM":"상세영업상태명"},
 			"DATA" : [
 			{"lastmodts":"2023-03-01 17:19:34","dtlstatenm":"정상","lindjobgbnnm":null,"totepnum":null,"lindseqno":null,"lindprcbgbnnm":null,"bplcnm":"차지우동물병원","clgenddt":"","sitearea":"","dcbymd":"","clgstdt":"","trdstategbn":"01","trdstatenm":"영업/정상","apvcancelymd":"","sitepostno":"","opnsfteamcode":"3150000","sitetel":"02-2235-1533","sitewhladdr":"서울특별시 강서구 등촌동 680 한울빌딩","dtlstategbn":"0000","rdnpostno":"07583","rgtmbdsno":null,"updategbn":"U","updatedt":1669993380000,"apvpermymd":"2020-06-16","uptaenm":"","rdnwhladdr":"서울특별시 강서구 강서로62길 10, 한울빌딩 1층 (등촌동)","y":"451192.093585364","ropnymd":"","mgtno":"315000001020200003","x":"185831.959022199"},
@@ -2068,34 +2068,33 @@ $(document).ready(function() {
 			{"lastmodts":"2022-12-22 09:13:01","dtlstatenm":"정상","lindjobgbnnm":null,"totepnum":null,"lindseqno":null,"lindprcbgbnnm":null,"bplcnm":"우쭈쭈동물건강검진센터 역삼점","clgenddt":"","sitearea":"246.88","dcbymd":"","clgstdt":"","trdstategbn":"01","trdstatenm":"영업/정상","apvcancelymd":"","sitepostno":"","opnsfteamcode":"3220000","sitetel":"02-562-7959","sitewhladdr":"서울특별시 강남구 역삼동 725-29 제이유34","dtlstategbn":"0000","rdnpostno":"06223","rgtmbdsno":null,"updategbn":"U","updatedt":1635771840000,"apvpermymd":"20220315","uptaenm":"","rdnwhladdr":"서울특별시 강남구 테헤란로34길 26, 제이유34 2층 (역삼동)","y":"444190.759644782","ropnymd":"","mgtno":"322000001020220001","x":"203513.056527732"},
 			{"lastmodts":"2022-12-27 11:15:38","dtlstatenm":"정상","lindjobgbnnm":null,"totepnum":null,"lindseqno":null,"lindprcbgbnnm":null,"bplcnm":"희망종합동물병원","clgenddt":"","sitearea":"0","dcbymd":"","clgstdt":"","trdstategbn":"01","trdstatenm":"영업/정상","apvcancelymd":"","sitepostno":"","opnsfteamcode":"3230000","sitetel":"02-414-7588","sitewhladdr":"서울특별시 송파구 잠실동 175-12 올림픽타워 101호","dtlstategbn":"0000","rdnpostno":"05556","rgtmbdsno":null,"updategbn":"U","updatedt":1635772140000,"apvpermymd":"19910330","uptaenm":"","rdnwhladdr":"서울특별시 송파구 올림픽로 88, 올림픽타워 101호 (잠실동)","y":"445470.105610856","ropnymd":"","mgtno":"323000001019910002","x":"207048.638189411"}
 			]
-			}
+			} // hospital
 	
 	
-	let code = "<h1>제목 : 병원목록 </h1>";
 	
-	code += "<table><tr><th>병원명</th><th>우편번호</th><th>도로명</th><th>좌표x</th><th>좌표y</th></tr>";
 	
-	for(let i=0;i<5;i++) {
+	
+	
+	
+	let code = "<h1> 동물병원</h1>";
+	
+	code += "<table><tr><th>병원명</th><th>전화번호</th><th>영업상태</th><th>우편번호</th><th>주소</th><th>좌표 x</th><th>좌표 y</th></tr>";
+	
+	
+	for(list of hospital.DATA) {
 		code += "<tr>";
-		code += "<td>" + api.data(i).bplcnm + "</td>";
-		code += "<td>" + api.data(i).rdnpostno + "</td>";
-		code += "<td>" + api.data(i).rdnwhladdr + "</td>";
-		code += "<td>" + api.data(i).x + "</td>";
-		code += "<td>" + api.data(i).y + "</td>";
+		code += "<td>" + list.bplcnm + "</td>";
+		code += "<td>" + list.sitetel + "</td>";
+		code += "<td>" + list.trdstatenm + "</td>";
+		code += "<td>" + list.rdnpostno + "</td>";
+		code += "<td>" + list.rdnwhladdr + "</td>";
+		code += "<td>" + list.x+ "</td>";
+		code += "<td>" + list.y + "</td>";
 		code += "</tr>";
 	}
-	
-	/*for(score of boxOffice.dailyBoxOfficeList) {
-		code += "<tr>";
-		code += "<td>" +score.rank + "</td>";
-		code += "<td>" +score.movieNm + "</td>";
-		code += "<td>" +score.openDt + "</td>";
-		code += "<td>" +score.audiAcc + "</td>";
-		code += "<td>" +score.showCnt + "</td>";
-		code += "</tr>";
-	}*/
-	
+		
 	code += "</table>";
 	
 	$("body").append(code);
+	
 }); // document

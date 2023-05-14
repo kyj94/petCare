@@ -125,6 +125,7 @@ div.name_d button#share, div.name_d button#like  {
 	margin-right: 45px;
 }
 
+
 div.buttons img {
 	/* border: 1px solid red; */
 	width: 30px;
@@ -179,6 +180,10 @@ div.nav {
 	padding: 20px 0px 20px 5px;
 }
 
+div.nav:hover {
+	cursor: pointer;
+}
+
 div.nav span {
 	margin-right: 50px;
 	font-size: 18px;
@@ -228,10 +233,11 @@ div.api span:last-child {
 	margin-top:-4px;
 }
 
-div.api img {
+div.api iframe.map {
 	width: 350px;
 	height: 285px;
-	padding-top: 15px;
+	padding:0px;
+	margin:0px;
 }
 
 
@@ -409,4 +415,47 @@ div.review_card div.date span:last-child {
 div.review_card div.date a {
 	/* border: 1px solid #98DFFF; */
 	color: red;
+}
+
+div.review_card div.date button#like:hover {
+	cursor: pointer;
+}
+
+
+/***************************************
+	modal
+***************************************/
+div.name_d div.modal {
+	display: none;
+  position: fixed;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+div.name_d div.modal-content {
+	border: 1px solid red;
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 500px;
+  weight:  500px;
+}
+
+div.name_d div.modal-content span.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+div.name_d div.modal-content span.close:hover
+{
+	cursor: pointer;
 }

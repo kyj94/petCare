@@ -8,7 +8,7 @@
 	<title>main</title>
 	<link rel="stylesheet" href="http://localhost:9000/WebCarePedia/css/search_main.css">
 	
-	<script src="http://localhost:9000/mycgv_jsp/js/jquery-3.6.4.min.js"></script>
+	<script src="http://localhost:9000/WebCarePedia/js/jquery-3.6.4.min.js"></script>
 	<script src="http://localhost:9000/WebCarePedia/js/search_main.js"></script>
 	
 </head>
@@ -98,28 +98,10 @@
 		<!-- 검색리스트 -->
 			<section class="list">
 				<div class="hlist">
-					<div class="list1">
-						<div class="hinfo">
-							<a href="http://www.naver.com">
-								<span>더좋은동물병원</span>
-								<span>⭐ 5.0</span>
-								<span>02-1234-1234</span>
-							</a>
-						
-							<span id="harea">강남구 역삼동</span>
-							<span id="htime">진료 중</span>
-							<button type="button" id="hservation">예약하기 ></button>
-						</div>
-						
-						<div class="himg">
-							<img src="http://localhost:9000/WebCarePedia/image/search_main.png" width="122px" height="122px">
-						</div>
-					</div>
-					
-					<% for(int i =0;i < 10; i++) { %>
+					<% for(int i =0;i < 2; i++) { %>
 						<div class="list1">
 							<div class="hinfo">
-								<a href="http://www.naver.com">
+								<a href="http://localhost:9000/WebCarePedia/search/search_result.jsp">
 									<span>더좋은동물병원</span>
 									<span>⭐ 5.0</span>
 									<span>02-1234-1234</span>
@@ -128,6 +110,13 @@
 								<span id="harea">강남구 역삼동</span>
 								<span id="htime">진료 중</span>
 								<button type="button" id="hservation">예약하기 ></button>
+								<div id="hmodal" class="modal">
+								  <div class="modal-content">
+								    <span class="close">&times;</span>
+								    <iframe src="http://localhost:9000/WebCarePedia/search/search_reservation.jsp" 
+								     width="500px" height="500px" frameborder=0></iframe>
+								  </div>
+								</div>
 							</div>
 							
 							<div class="himg">
@@ -144,7 +133,7 @@
 			<div class="hapi">
 				<!-- <iframe width="100%" height="100px"></iframe> -->
 				<iframe src="http://localhost:9000/WebCarePedia/search/search_map.jsp"
-			scrolling="no" width="100%" height="1000px" frameborder=0></iframe>
+					scrolling="no" width="100%" height="1000px" frameborder=0></iframe>
 				<!-- <img src="http://localhost:9000/WebCarePedia/image/API.png"> -->
 			</div>
 			</section>

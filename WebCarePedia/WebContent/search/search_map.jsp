@@ -10,20 +10,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <title>간단한 지도 표시하기</title>
     <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=7reerlqgi2"></script>
+    
+    
 </head>
 <body>
+
+
+
+
+
 <div id="map" style="width:100%;height:1000px;"></div>
 
 <script>
 var HOME_PATH = window.HOME_PATH || '.';
-var cityhall = new naver.maps.LatLng(37.5666805, 126.9784147),
+var hospital = new naver.maps.LatLng(37.5666805, 126.9784147),
     map = new naver.maps.Map('map', {
-        center: cityhall,
+        center: hospital,
         zoom: 15
     }),
     marker = new naver.maps.Marker({
         map: map,
-        position: cityhall
+        position: hospital
     });
     
     

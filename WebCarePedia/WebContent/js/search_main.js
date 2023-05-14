@@ -26,16 +26,37 @@ $(document).ready(function(){
 	
 	
 /*******************************************
-	체크박스 값 넘기기
+	체크박스 값 받기
 ********************************************/	
-	 $('input[type="checkbox"][name="area"]').click(function() {
+	 /*$('input[type="checkbox"][name="area"]').click(function() {
 		    		    
 		    // 변수로 다이렉트로 담을 경우에는 가장 위에 체크한 항목이 들어감
 			var area = $("input[name='area']:checked").val();
 		    
 			alert(area);
-		    /*$("span").text(arr);*/
-		  });
+			
+			 $.get('/submit', { area: area }, function(response) {
+			      alert(response);
+			    });
+		  });*/
+	 
+	 $('input[type="checkbox"][name="area"]').on('change', function() {
+		  if ($(this).is(':checked')) { // 체크박스가 체크되었을 때
+		    var area = $(this).val(); // 체크된 체크박스의 값을 가져옴
+		    $.ajax({
+		      type: 'get',
+		      url: '#',
+		      data: { area: area },
+		      success: function(response) {
+		        alert(area);
+		      },
+		      error: function() {
+		        alert('오류가 발생했습니다.');
+		      }
+		    });
+		  }
+		});
+	 
 	 
 	 $('input[type="checkbox"][name="time"]').click(function() {
 		    
@@ -43,7 +64,6 @@ $(document).ready(function(){
 			var time = $("input[name='time']:checked").val();
 		    
 			alert(time);
-		    /*$("span").text(arr);*/
 		  });
 	 
 	 $('input[type="checkbox"][name="animal"]').click(function() {
@@ -52,7 +72,6 @@ $(document).ready(function(){
 			var animal = $("input[name='animal']:checked").val();
 		    
 			alert(animal);
-		    /*$("span").text(arr);*/
 		  });
 	
 	
@@ -69,10 +88,19 @@ $(document).ready(function(){
 /*******************************************
 	예약 버튼
 ********************************************/
-	$("#hservation").click(function() {
+	/*$("#hservation").click(function() {
 		var url = 'http://localhost:9000/WebCarePedia/search/search_reservation.jsp';
 	    window.open(url, 'popup', 'width=500,height=500,scrollbars=no,menubar=no,toolbar=no,location=no,status=no,resizable=no');
-	});
+	});*/
+
+	 $("#hservation").click(function() {
+		 $("#hmodal").css("display", "block");
+		  });
+		  
+		  // 모달 닫기
+		  $(".close").click(function() {
+		    $("#hmodal").css("display", "none");
+		  });
 	
 	
 	
