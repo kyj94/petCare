@@ -23,7 +23,7 @@
 
 <script>
 var HOME_PATH = window.HOME_PATH || '.';
-var hospital = new naver.maps.LatLng(37.5666805, 126.9784147),
+var hospital = new naver.maps.LatLng(37.6123503, 126.9317118),
     map = new naver.maps.Map('map', {
         center: hospital,
         zoom: 15
